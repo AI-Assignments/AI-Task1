@@ -32,7 +32,7 @@ g.nodes["Phase2"]['pos']=(4,0)
 g.nodes["J1"]['pos']=(8,-4)
 g.nodes["Mada"]['pos']=(8,0)
 g.nodes["Phase3"]['pos']=(12,0)
-g.nodes["ParkingLot"]['pos']=(8,-8)
+g.nodes["ParkingLot"]['pos']=(8,-8 )
 
 #store all the positions in a variable
 node_pos = nx.get_node_attributes(g,'pos')
